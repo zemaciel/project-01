@@ -1,16 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Sunflower:wght@300;500&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
 body {
     font-family: Lato, sans-serif;
     font-weight: 300;
-    color: #333333;
-    background-color:blueviolet;
+    color: #333;
 }
 
     h1 {
         font-family: Sunflower, sans-serif;
         font-weight: 500;
-        text-transform: uppercase;
         letter-spacing: 4px;
         color: white;
     }
@@ -22,6 +26,58 @@ body {
     color: #333333;
     }
 
+    p {
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        color:#333333;
+    }
+
+/* Header, Logo and Navegation  */
+
+header {
+    height: 75px;
+    background-color:#333333;
+    display: inline-block;
+    padding-left: 10%;
+}
+
+    #logo {
+        float: left;;
+    }
+
+nav { 
+    height: 75px;
+    display: inline-block;
+    text-align:right;
+}
+
+#menu {
+    font-size: 1.25rem;
+    letter-spacing: 4px;
+}
+
+    #menu, #logo {
+        line-height: 75px;
+    }
+    
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+    
+    #menu a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    #menu a:hover {
+        border-bottom: 4px solid #B70000;
+    }
+    
+    .active {
+        border-bottom: 2px solid #B70000;
+    }
 
     /* Button styling */
 
