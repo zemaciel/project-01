@@ -127,3 +127,20 @@ header {
     margin: 400px 25% auto 25%;
     position: relative;
 }
+
+/* Introduction */
+
+#intro {
+margin-top: 50px;
+margin-bottom: 50px;
+text-align: center;
+background-color: blue;
+}
+
+#intro hr {
+    border-top: 2px solid #B70000;
+    width: 50%;
+    margin:5px auto;
+}
+
+
