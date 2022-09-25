@@ -81,9 +81,10 @@ header {
     /* Button styling */
 
     .red-button {
-        background-color: rgba(183, 0, 0, .5);
+        background-color: rgba(183, 0, 0, 1);
         border: none;
-        padding: 2px 3px;
+        padding: 5px 15px;
+        line-height: 50px;
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
@@ -138,8 +139,8 @@ background-color: blue;
 }
 
 #intro hr {
-    border-top: 2px solid #B70000;
-    width: 50%;
+    border-top: 4px solid #B70000;
+    width: 30%;
     margin:5px auto;
 }
 
@@ -156,6 +157,7 @@ position: relative;
     width: 80%;
     margin: 0 auto 0 auto;
     background-color: yellow;
+    font-size: 1.5rem;
 }
 
 #feature-left {
@@ -224,8 +226,9 @@ position: relative;
 /* Call to action Explore More Hikes */
 
 #cta-more-hikes {
-margin: 0;
-line-height: 50px;
+margin-top: 25px;
+margin-bottom: 25px;
+line-height: 75px;
 width: 100%;
 text-align: center;
 background-color: pink;
