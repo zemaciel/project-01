@@ -144,3 +144,65 @@ background-color: blue;
 }
 
 
+/* Featured Hikes */
+
+#features {
+    width: 80%;
+    margin:auto
+    position: relative;
+    background-color: yellow;
+}
+
+#feature-left {
+    width: 33%;
+    padding-top: 25px;
+    float: left;
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+}
+
+#feature-right {
+    width: 33%;
+    padding-top: 25px;
+    float: right;
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+}
+#feature-center {
+    width: 33%;
+    margin: 0 auto;
+    padding-top: 25px;
+    background-color: aqua;
+    text-align: center;
+    display: inline-block;
+}
+
+#hike-photo-left {
+    width:344px;
+    height: 234px;
+    background-image: url('../images/hike-carrauntoohil.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+#hike-center-left {
+    width:344px;
+    height: 234px;
+    background-image: url('../images/hike-donegal2.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    
+}
+
+#hike-photo-left {
+    width:344px;
+    height: 234px;
+    background-image: url('../images/hike-burren.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
