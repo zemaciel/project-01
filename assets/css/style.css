@@ -35,52 +35,52 @@ body {
 /* Header, Logo and Navegation  */
 
 header {
-    width: 100%;
-    height: 75px;
-    background-color:#333333;
-    display: inline-block;
-    padding-left: 20%;
-    padding-top:30px;
-}
-
-.logo {
-    width: 155.73px;
-    height: 55px;
-    /* background-image: ../images/logo/logo-landscape-negative.png; */
-    background-color: blue;
-    float: left;
-}
-
-nav { 
-    height: 75px;
-    display: inline-block;
-    background-color: green;
-    float: right;
-}
-
-    
-.menu {
-    font-size: 1.25rem;
-    letter-spacing: 4px;
-}
-
-    
-    .menu li {
-        list-style-type: none;
+    background-color: rgba(51, 51, 51, 0.7);
+      height: 80px;
+      width: 100%;
     }
     
-    .menu a {
+    #logo-container {
+        float: left;
+        margin: 10px 30px;
+    }
+    
+    
+    /* navigation links */
+    
+    #menu {
+        font-size: 110%;
+        letter-spacing: 4px;
+    }
+    
+    #menu, #logo {
+        line-height: 75px;
+    }
+    
+    #menu li {
+        float: right;
+        list-style-type: none;
+        margin-right: 30px;
+    }
+    
+    #menu a {
         text-decoration: none;
         color: inherit;
     }
     
-    .menu a:hover {
-        border-bottom: 4px solid #B70000;
+    #menu a:hover {
+        border-bottom: 1px solid #B70000;
     }
     
     .active {
-        border-bottom: 2px solid #B70000;
+        border-bottom: 4px solid #B70000;
     }
+
+
+
+
+
+
 
     /* Button styling */
 
@@ -103,8 +103,30 @@ nav {
 
 }
 
-    
+#hero-container {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
 
-    #cover-text {
-        text-align: center;
-    }
+#cover-text h1 {
+    color: #fff;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/cover-errigal.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+main {
+    width: 80%;
+    text-align: center;
+}
+
+#intro {
+width
+    
+}
