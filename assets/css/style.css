@@ -145,11 +145,16 @@ background-color: blue;
 
 
 /* Featured Hikes */
+#features-outter-container {
+margin: 0;
+text-align: center;
+background-color: teal;
+position: relative;
+}
 
 #features {
     width: 80%;
-    margin:auto
-    position: relative;
+    margin: 0 auto 0 auto;
     background-color: yellow;
 }
 
@@ -157,7 +162,7 @@ background-color: blue;
     width: 33%;
     padding-top: 25px;
     float: left;
-    background-color: aqua;
+    background-color: purple;
     text-align: center;
     display: inline-block;
 }
@@ -166,7 +171,7 @@ background-color: blue;
     width: 33%;
     padding-top: 25px;
     float: right;
-    background-color: aqua;
+    background-color: brown;
     text-align: center;
     display: inline-block;
 }
@@ -186,23 +191,44 @@ background-color: blue;
     background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
 }
 
-#hike-center-left {
+#hike-photo-middle {
     width:344px;
     height: 234px;
     background-image: url('../images/hike-donegal2.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
     
 }
 
-#hike-photo-left {
+#hike-photo-right {
     width:344px;
     height: 234px;
     background-image: url('../images/hike-burren.jpg');
     background-size: 100%;
     background-repeat: no-repeat;
     overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+/* Call to action Explore More Hikes */
+
+#cta-more-hikes {
+margin: 0;
+line-height: 50px;
+width: 100%;
+text-align: center;
+background-color: pink;
+position: relative;
+
 }
