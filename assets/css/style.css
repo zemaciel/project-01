@@ -35,43 +35,46 @@ body {
 /* Header, Logo and Navegation  */
 
 header {
+    width: 100%;
     height: 75px;
     background-color:#333333;
     display: inline-block;
-    padding-left: 10%;
+    padding-left: 20%;
+    padding-top:30px;
 }
 
-    #logo {
-        float: left;;
-    }
+.logo {
+    width: 155.73px;
+    height: 55px;
+    /* background-image: ../images/logo/logo-landscape-negative.png; */
+    background-color: blue;
+    float: left;
+}
 
 nav { 
     height: 75px;
     display: inline-block;
-    text-align:right;
+    background-color: green;
+    float: right;
 }
 
-#menu {
+    
+.menu {
     font-size: 1.25rem;
     letter-spacing: 4px;
 }
 
-    #menu, #logo {
-        line-height: 75px;
-    }
     
-    #menu li {
-        float: right;
+    .menu li {
         list-style-type: none;
-        margin-right: 30px;
     }
     
-    #menu a {
+    .menu a {
         text-decoration: none;
         color: inherit;
     }
     
-    #menu a:hover {
+    .menu a:hover {
         border-bottom: 4px solid #B70000;
     }
     
