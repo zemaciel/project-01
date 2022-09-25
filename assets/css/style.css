@@ -65,7 +65,7 @@ header {
     
     #menu a {
         text-decoration: none;
-        color: inherit;
+        color: white;
     }
     
     #menu a:hover {
@@ -96,33 +96,34 @@ header {
     color: white;
     text-transform: uppercase;
     text-align: center;
+}
 
-}/* Hero Banner  */
+/* Hero Banner  */
 
-#hero-outer {
+#hero-container {
     height: 650px;
     width: 100%;
     overflow: hidden;
-    position: relative;
-}
-
-#cover-text,{
-    color: #fff;
 }
 
 #hero-image {
-    height: 700px;
+    height: 650px;
     width: 100%;
-    background: url('../images/cover-errigal.jpg') no-repeat center center;
+    background-image: url('../images/cover-errigal.jpg');
+    margin: 0%;
+    text-align: center;
+    position: relative;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
 #cover-text {
-    font-size: 180%;
+    font-size: 1.75rem;
     font-family: Sunflower, sans-serif;
-    width: 30%;
-    padding-top: 40px;
-    padding-left: 20px;
+    padding: 5px;
     background-color: rgba(183, 0, 0, .7);
     text-align: center;
-    position: ;
+    margin: 400px 25% auto 25%;
+    position: relative;
 }
