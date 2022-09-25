@@ -76,11 +76,7 @@ header {
         border-bottom: 4px solid #B70000;
     }
 
-
-
-
-
-
+    
 
     /* Button styling */
 
@@ -101,32 +97,32 @@ header {
     text-transform: uppercase;
     text-align: center;
 
-}
+}/* Hero Banner  */
 
-#hero-container {
-    height: 600px;
+#hero-outer {
+    height: 650px;
     width: 100%;
     overflow: hidden;
     position: relative;
 }
 
-#cover-text h1 {
+#cover-text,{
     color: #fff;
 }
 
 #hero-image {
-    height: 600px;
+    height: 700px;
     width: 100%;
     background: url('../images/cover-errigal.jpg') no-repeat center center;
-    background-size: cover;
 }
 
-main {
-    width: 80%;
+#cover-text {
+    font-size: 180%;
+    font-family: Sunflower, sans-serif;
+    width: 30%;
+    padding-top: 40px;
+    padding-left: 20px;
+    background-color: rgba(183, 0, 0, .7);
     text-align: center;
-}
-
-#intro {
-width
-    
+    position: ;
 }
