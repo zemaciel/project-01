@@ -77,22 +77,21 @@ header {
     }
 
     
+/* Button styling */
 
-    /* Button styling */
+ .red-button {
+    background-color: rgba(183, 0, 0, 1);
+    border: none;
+    padding: 5px 15px;
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    border-radius: 20px;
+}
 
-    .red-button {
-        background-color: rgba(183, 0, 0, 1);
-        border: none;
-        padding: 5px 15px;
-        line-height: 50px;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 2px 2px;
-        cursor: pointer;
-        border-radius: 20px;
-
-    }
 .red-button h3 {
     color: white;
     text-transform: uppercase;
@@ -132,10 +131,10 @@ header {
 /* Introduction */
 
 #intro {
-margin-top: 50px;
-margin-bottom: 50px;
+margin-top: 20px;
+margin-bottom: 20px;
 text-align: center;
-background-color: blue;
+/* background-color: blue; */
 }
 
 #intro hr {
@@ -149,14 +148,14 @@ background-color: blue;
 #features-outter-container {
 margin: 0;
 text-align: center;
-background-color: teal;
+/* background-color: teal; */
 position: relative;
 }
 
 #features {
     width: 80%;
     margin: 0 auto 0 auto;
-    background-color: yellow;
+    /* background-color: yellow; */
     font-size: 1.5rem;
 }
 
@@ -164,7 +163,7 @@ position: relative;
     width: 33%;
     padding-top: 25px;
     float: left;
-    background-color: purple;
+    /* background-color: purple; */
     text-align: center;
     display: inline-block;
 }
@@ -173,7 +172,7 @@ position: relative;
     width: 33%;
     padding-top: 25px;
     float: right;
-    background-color: brown;
+    /* background-color: brown; */
     text-align: center;
     display: inline-block;
 }
@@ -181,13 +180,13 @@ position: relative;
     width: 33%;
     margin: 0 auto;
     padding-top: 25px;
-    background-color: aqua;
+    /* background-color: aqua; */
     text-align: center;
     display: inline-block;
 }
 
 #hike-photo-left {
-    width:344px;
+    width: 344px;
     height: 234px;
     background-image: url('../images/hike-carrauntoohil.jpg');
     background-size: 100%;
@@ -198,7 +197,7 @@ position: relative;
 }
 
 #hike-photo-middle {
-    width:344px;
+    width: 344px;
     height: 234px;
     background-image: url('../images/hike-donegal2.jpg');
     background-size: 100%;
@@ -231,7 +230,58 @@ margin-bottom: 25px;
 line-height: 75px;
 width: 100%;
 text-align: center;
-background-color: pink;
+/* background-color: pink; */
 position: relative;
 
 }
+
+
+/* footer */
+
+footer {
+    height: 200px;
+    background-color: #333;
+    border-top: 2px solid #D70000;
+}
+#footer-container {
+  width: 80%;
+  display: inline-block;
+}
+#footer-left {
+  float: left;
+  width: 40%;
+  margin-top: 10px;
+  position: absolute;
+}
+
+/* #logo-footer {
+    margin-top: 10px;
+} */
+
+
+#footer-right {
+  float: right;
+  width: 40%;
+  margin-top: 20px;
+  position: relative;
+}
+
+.socialmedia-list > li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+    float: right;
+    position: relative;
+}
+
+.socialmedia-list i {
+    font-size: 180%;
+    margin: 1% auto;
+    padding: 2%;
+    color: white;
+}
+
+#footer-right p {
+  color: white;
+}
+
