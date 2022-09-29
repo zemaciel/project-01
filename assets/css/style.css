@@ -18,7 +18,7 @@ body {
         letter-spacing: 4px;
         color: white;
     }
-    
+
     h2, h3 {
     font-family: Sunflower, sans-serif;
     font-weight: 300;
@@ -39,44 +39,44 @@ header {
       height: 80px;
       width: 100%;
     }
-    
+
     #logo-container {
         float: left;
         margin: 10px 30px;
     }
-    
-    
+
+
     /* navigation links */
-    
+
     #menu {
         font-size: 110%;
         letter-spacing: 4px;
     }
-    
+
     #menu, #logo {
         line-height: 75px;
     }
-    
+
     #menu li {
         float: right;
         list-style-type: none;
         margin-right: 30px;
     }
-    
+
     #menu a {
         text-decoration: none;
         color: white;
     }
-    
+
     #menu a:hover {
         border-bottom: 1px solid #B70000;
     }
-    
+
     .active {
         border-bottom: 4px solid #B70000;
     }
 
-    
+
 /* Button styling */
 
  .red-button {
@@ -134,7 +134,6 @@ header {
 margin-top: 20px;
 margin-bottom: 20px;
 text-align: center;
-/* background-color: blue; */
 }
 
 #intro hr {
@@ -205,7 +204,7 @@ position: relative;
     overflow: hidden;
     text-align: center;
     margin: 0 auto;
-    
+
 }
 
 #hike-photo-right {
@@ -236,7 +235,45 @@ position: relative;
 }
 
 
-/* footer */
+/* MEET THE TEAM */
+
+#team {
+    margin: 0;
+    text-align: center;
+    background-color: teal;
+    position: relative;
+    }
+
+    .team-card {
+        width: 80%;
+        margin: 0 auto 0 auto;
+        background-color: yellow;
+        font-size: 1.5rem;
+        float: left;
+        background-color: purple;
+        text-align: center;
+        display: inline-block;
+    }
+
+    .team-photo {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        position: relative;
+        margin: 0 auto;
+       overflow: hidden;
+       background-position: cover;
+    }
+
+
+
+
+
+
+
+
+
+/* FOOTER */
 
 footer {
     height: 200px;
@@ -284,4 +321,3 @@ footer {
 #footer-right p {
   color: white;
 }
-
