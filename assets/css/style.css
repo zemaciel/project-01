@@ -6,13 +6,42 @@
   border: none;
 }
 
-body {
-  font-family: Lato, sans-serif;
-  font-weight: 300;
-  color: #333;
+html, body {
+  height: 100%;
+}
+
+header {
+  background-color: rgba(51, 51, 51, 0.8);
+  height: 80px;
+  width: 100%;
+  margin: 0;
+  /* position: fixed;
+  z-index: 1; */
+}
+
+.logo-container-top {
+  float: left;
+  margin: 10px 30px;
+}
+
+#container {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#main {
+  /* overflow: auto; */
+  padding-bottom: 150px
+    /* position: relative; */
+    height: auto;
 }
 
 /* ===== TYPOGRAPHY STYLING ===== */
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-family: Sunflower, sans-serif;
   font-weight: 500;
@@ -33,23 +62,30 @@ h2 {
 h3 {
   font-family: Sunflower, sans-serif;
   font-weight: 300;
+  font-size: 1.2rem;
   letter-spacing: 4px;
-  color: #333333;
+  color: #333;
   margin: 5px auto;
 }
 
 h4 {
   font-family: Sunflower, sans-serif;
-  font-weight: 500;
+  font-weight: 300;
   letter-spacing: 2px;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #B70000;
 }
 
 p {
   font-family: Lato, sans-serif;
   font-size: 16px;
-  color: #333333;
+  font-weight: 300;
+  color: #333;
+}
+
+.bullet {
+  color: #B70000;
+  margin: 0 1rem;
 }
 
 /* ===== BUTTON STYLING ===== */
@@ -58,7 +94,6 @@ p {
   border: none;
   padding: 5px 15px;
   line-height: 50px;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
   margin: 2px 2px;
@@ -72,18 +107,10 @@ p {
   text-align: center;
 }
 
-/* ===== HEADER STYLING ===== */
-header {
-  background-color: rgba(51, 51, 51, 0.8);
-  height: 80px;
-  width: 100%;
-  /* position: fixed;
-  z-index: 1; */
-}
-
-#logo-container {
-  float: left;
-  margin: 10px 30px;
+hr {
+  border-top: 4px solid #B70000;
+  width: 30%;
+  margin: 5px auto;
 }
 
 /* ===== NAVEGATION LINKS STYLING =====*/
@@ -105,6 +132,7 @@ header {
 #menu a {
   text-decoration: none;
   color: white;
+  font-family: Sunflower, sans-serif;
 }
 
 #menu a:hover {
@@ -115,9 +143,11 @@ header {
   border-bottom: 4px solid #B70000;
 }
 
-/* ==== HERO COVER IMAGES ====  */
-#hero-outer {
-  height: 500px;
+========================================================================================================================================================
+
+/* ==== HERO BANNER ====  */
+.hero-outer {
+  height: 600px;
   width: 100%;
   overflow: hidden;
   position: relative;
@@ -125,72 +155,46 @@ header {
 }
 
 #index-hero-image {
-  height: 500px;
+  height: 600px;
   width: 100%;
-  background: url('../images/cover-errigal.jpg') no-repeat center center;
-  background-position: center;
+  background: url('../images/cover-errigal700.jpg') no-repeat center center;
+  background-size: cover;
   background-attachment: fixed;
-}
-
-#hikes-hero-image {
-  height: 500px;
-  width: 100%;
-  background: url('../images/cover-conemara.jpg') no-repeat center center;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-#contact-hero-image {
-  height: 500px;
-  width: 100%;
-  background: url('../images/cover-conemara.jpg') no-repeat center center;
-  background-position: center;
-  background-attachment: fixed;
-}
-
-
-#cover-text h1 {
-  font-size: 2rem;
-  font-family: 'Sunflower', sans-serif;
-  text-transform: uppercase;
+  position: relative;
 }
 
 #cover-text {
   background-color: rgba(183, 0, 0, .7);
-  padding: 5px;
+  padding: 10px;
   left: 10%;
-  bottom: 50px;
+  top: 450px;
   position: absolute;
+  border-radius: 20px;
 }
 
-/* ===== Introduction =====*/
+/* ===== INDEX PAGE - INTRO =====*/
 #intro {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-#intro hr {
-  border-top: 4px solid #B70000;
-  width: 30%;
-  margin: 5px auto;
-}
-
-/* =====Featured Hikes===== */
-#features-outter-container {
-  margin: 0;
+/* ===== INDEX PAGE - FEATURE HIKES ===== */
+#features-outer-container {
+  margin: 25px;
   text-align: center;
-  position: relative;
+  min-height: 500px;
+  /* position: relative; */
 }
 
-#features {
+#feature-row {
   width: 80%;
   margin: 0 auto 0 auto;
-  font-size: 1.5rem;
+  display: inline-block;
 }
 
 #feature-left {
-  width: 33%;
+  width: 30%;
   padding-top: 25px;
   float: left;
   text-align: center;
@@ -198,7 +202,7 @@ header {
 }
 
 #feature-right {
-  width: 33%;
+  width: 30%;
   padding-top: 25px;
   float: right;
   text-align: center;
@@ -206,71 +210,56 @@ header {
 }
 
 #feature-center {
-  width: 33%;
+  width: 30%;
   margin: 0 auto;
   padding-top: 25px;
   text-align: center;
   display: inline-block;
 }
 
-#hike-photo-left {
+.feature-description {
+  padding: 10px 20px;
+  margin: 0 auto;
+}
+
+.feat-photo {
   width: 344px;
   height: 234px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#feature-photo-left {
   background-image: url('../images/hike-carrauntoohil.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  text-align: center;
-  margin: 0 auto;
 }
 
-#hike-photo-middle {
-  width: 344px;
-  height: 234px;
+#feature-photo-middle {
   background-image: url('../images/hike-donegal2.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  text-align: center;
-  margin: 0 auto;
 }
 
-#hike-photo-right {
-  width: 344px;
-  height: 234px;
+#feature-photo-right {
   background-image: url('../images/hike-clifs-moher.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  text-align: center;
-  margin: 0 auto;
 }
 
-/* ===== Call to action Explore More Hikes ===== */
-#cta-more-hikes {
-  margin-top: 25px;
-  margin-bottom: 25px;
-  line-height: 75px;
-  width: 100%;
-  text-align: center;
-  position: relative;
-}
-
-/* MEET THE TEAM */
+/* ===== INDEX PAGE - MEET THE TEAM  ====== */
 #team-outer-container {
   margin: 25px auto 0;
   text-align: center;
-  background-color: #C6CDCE;
-  width: 100%;
-  height: auto;
   position: relative;
-  padding-top: 25px;
-  padding-botom: 70px;
+  background-color: #C6CDCE;
+  padding-top: 15px;
+  min-height: 700px;
+  width: 100%;
 }
 
 #team-row {
-  margin: 20px;
-  position: absolute;
+  padding-top: 15px;
+  padding-botom: 70px;
+  margin: 20px auto;
+  width: 80%;
 }
 
 .team-card {
@@ -278,6 +267,10 @@ header {
   font-size: 1.5rem;
   text-align: center;
   display: inline-block;
+}
+
+.team-card h4 {
+  color: #B70000;
 }
 
 .team-card-left {
@@ -306,40 +299,55 @@ header {
   padding: 15px 20px 50px 15px;
 }
 
-/* ===== FOOTER ===== */
-footer {
-  height: 250px;
-  width: 100%;
+/* ======================================================
+============== FOOTER ================================ */
+#footer {
   background-color: #333;
+  height: 170px;
   border-top: 8px solid #D70000;
-  padding-top: 15px;
+  margin-top: auto;
+  clear: both;
+  padding: 1em 1em 3em;
+  color: white;
   text-align: center;
 }
 
-.footer-container {
-  position: relative;
-  margin: 25px;
+.footer-wrap {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  /* position: relative; */
 }
 
-.footer-logo {
-  position: absolute;
-  width: 25%;
-  margin-left: 25px;
+/* .footer-logo {
+  margin: 5px auto;
+} */
+#footer p {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
 }
 
-#footer-logo-image {
-  background-image: url('../images/logo/logo-landscape-white.png');
-  height: 60px;
-  width: auto;
-  background-repeat: no-repeat;
-  background-size: contain;
+/* #footer-logo-image {
+background-image: url('../images/logo/logo-landscape-white.png');
+height: 60px;
+width: auto;
+background-repeat: no-repeat;
+background-size: contain;
+align-self: center;
+margin: 5px auto;
+} */
+.footer-address {
+  margin: 15px auto;
+  align-self: center;
+  width: 100%;
 }
 
 .socialmedia {
-  float: right;
-  width: 25%;
-  text-align: right;
-  margin-right: 25px;
+  width: 100%;
+  margin: 0 auto;
+  /* position: absolute; */
 }
 
 .socialmedia-list>li {
@@ -349,7 +357,7 @@ footer {
 
 .socialmedia-list i {
   font-size: 180%;
-  margin: 1% auto;
-  padding: 2%;
+  margin: 10px auto;
+  padding: 10px;
   color: white;
 }
