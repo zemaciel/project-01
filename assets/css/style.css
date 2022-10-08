@@ -32,9 +32,9 @@ header {
 
 #main {
   /* overflow: auto; */
-  padding-bottom: 150px
-    /* position: relative; */
-    height: auto;
+  /* padding-bottom: 150px; */
+  /* position: relative; */
+  height: auto;
 }
 
 /* ===== TYPOGRAPHY STYLING ===== */
@@ -61,9 +61,8 @@ h2 {
 
 h3 {
   font-family: Sunflower, sans-serif;
-  font-weight: 300;
-  font-size: 1.2rem;
-  letter-spacing: 4px;
+  font-weight: 500;
+  font-size: 1.5rem;
   color: #333;
   margin: 5px auto;
 }
@@ -71,8 +70,7 @@ h3 {
 h4 {
   font-family: Sunflower, sans-serif;
   font-weight: 300;
-  letter-spacing: 2px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #B70000;
 }
 
@@ -251,13 +249,14 @@ hr {
   position: relative;
   background-color: #C6CDCE;
   padding-top: 15px;
-  min-height: 700px;
+  padding-bottom: 15px;
+  min-height: 680px;
+  height: auto;
   width: 100%;
 }
 
 #team-row {
   padding-top: 15px;
-  padding-botom: 70px;
   margin: 20px auto;
   width: 80%;
 }
@@ -360,4 +359,115 @@ margin: 5px auto;
   margin: 10px auto;
   padding: 10px;
   color: white;
+}
+
+/* ==========================
+   ===== MEDIA QUERIES =====
+   =========================*/
+/* For large to medium screens sizes from 1200px wide and down  */
+@media screen and (max-width: 1200px) {
+  .hero-outer {
+    height: 400px;
+    width: 100%;
+  }
+
+  #index-hero-image, #hikes-hero-image, #contact-hero-image, #thankyou-hero-image {
+    height: 400px;
+    margin-bottom: -10;
+  }
+
+  #cover-text {
+    /* background-color: rgba(183, 0, 0, .7); */
+    padding: 7px;
+    left: 2%;
+    top: 250px;
+    max-width: 60%;
+  }
+
+  h1 {
+    font-size: 2rem;
+    letter-spacing: normal;
+  }
+
+  #features-outer-container {
+    margin: 10px;
+  }
+
+  #feature-row {
+    width: 100%;
+    display: block;
+  }
+
+  #feature-left, #feature-right, #feature-center {
+    width: 100%;
+    padding-top: 15px;
+    float: center;
+    display: block;
+  }
+
+  .feature-description {
+    padding: 10px;
+    margin-bottom: 15px;
+  }
+
+  #team-row {
+    padding: 10px;
+    margin: 10px auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .team-card {
+    width: 100%;
+    display: block;
+  }
+
+  .team-card h4 {
+    color: #B70000;
+  }
+
+  .team-card-left, .team-card-center, .team-card-right {
+    float: center;
+    /* background-color: #C6CDCE; */
+    width: 100%;
+  }
+
+  .team-photo {
+    width: 250px;
+    height: 250px;
+  }
+
+  .team-card p {
+    padding: 15px 20%;
+  }
+}
+
+/* For Small screens */
+@media screen and (max-width: 600px){
+
+header {
+  height: 120px;
+  width: 100%;
+  margin: 5;
+  text-align: center;
+}
+
+.logo-container-top {
+  margin: 10px;
+  width: 70px;
+}
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+}
+
+#menu, #logo {
+  line-height: 170px;
+}
+
+#menu li {
+  float: center;
+  margin: 10px;
+}
 }
