@@ -81,7 +81,10 @@ p {
   color: #333;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin
 .bullet {
   color: #B70000;
   margin: 0 1rem;
@@ -142,6 +145,11 @@ hr {
   border-bottom: 4px solid #B70000;
 }
 
+<<<<<<< HEAD
+=======
+========================================================================================================================================================
+
+>>>>>>> origin
 /* ==== HERO BANNER ====  */
 .hero-outer {
   height: 600px;
@@ -158,6 +166,7 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+<<<<<<< HEAD
 }
 
 #hikes-hero-image {
@@ -167,6 +176,8 @@ hr {
   background-size: cover;
   background-attachment: fixed;
   position: relative;
+=======
+>>>>>>> origin
 }
 
 #cover-text {
@@ -306,6 +317,7 @@ hr {
   padding: 15px 20px 50px 15px;
 }
 
+<<<<<<< HEAD
 
 
 /* ===== HIKE PAGE - INTRO =====*/
@@ -432,6 +444,47 @@ hr {
   text-align: center;
 }
 
+=======
+/* ======================================================
+============== FOOTER ================================ */
+#footer {
+  background-color: #333;
+  height: 170px;
+  border-top: 8px solid #D70000;
+  margin-top: auto;
+  clear: both;
+  padding: 1em 1em 3em;
+  color: white;
+  text-align: center;
+}
+
+.footer-wrap {
+  width: 100%;
+  display: flex;
+  align-self: center;
+  flex-direction: column;
+  /* position: relative; */
+}
+
+/* .footer-logo {
+  margin: 5px auto;
+} */
+#footer p {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* #footer-logo-image {
+background-image: url('../images/logo/logo-landscape-white.png');
+height: 60px;
+width: auto;
+background-repeat: no-repeat;
+background-size: contain;
+align-self: center;
+margin: 5px auto;
+} */
+>>>>>>> origin
 .footer-address {
   margin: 15px auto;
   align-self: center;
@@ -441,6 +494,10 @@ hr {
 .socialmedia {
   width: 100%;
   margin: 0 auto;
+<<<<<<< HEAD
+=======
+  /* position: absolute; */
+>>>>>>> origin
 }
 
 .socialmedia-list>li {
@@ -521,10 +578,16 @@ hr {
   }
 
   .team-card-left, .team-card-center, .team-card-right {
+<<<<<<< HEAD
     text-align: center;
     background-color: #C6CDCE;
     width: 100%;
     margin: auto 0;
+=======
+    float: center;
+    /* background-color: #C6CDCE; */
+    width: 100%;
+>>>>>>> origin
   }
 
   .team-photo {
@@ -535,6 +598,7 @@ hr {
   .team-card p {
     padding: 15px 20%;
   }
+<<<<<<< HEAD
 
 
 /* --- Hikes Page --  */
@@ -579,12 +643,39 @@ nav {
 
 #menu, #logo {
   line-height: 120px;
+=======
+}
+
+/* For Small screens */
+@media screen and (max-width: 600px){
+
+header {
+  height: 120px;
+  width: 100%;
+  margin: 5;
+  text-align: center;
+}
+
+.logo-container-top {
+  margin: 10px;
+  width: 70px;
+}
+
+#menu {
+  font-size: 110%;
+  letter-spacing: 2px;
+}
+
+#menu, #logo {
+  line-height: 170px;
+>>>>>>> origin
 }
 
 #menu li {
   float: center;
   margin: 10px;
 }
+<<<<<<< HEAD
 .hero-outer {
   height: 300px;
   margin-top: -200px;
@@ -646,4 +737,6 @@ display: none;
 
 
 
+=======
+>>>>>>> origin
 }
