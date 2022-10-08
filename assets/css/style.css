@@ -204,7 +204,7 @@ hr {
   padding-top: 25px;
   float: left;
   text-align: center;
-  display: inline-block;
+
 }
 
 #feature-right {
@@ -212,7 +212,7 @@ hr {
   padding-top: 25px;
   float: right;
   text-align: center;
-  display: inline-block;
+
 }
 
 #feature-center {
