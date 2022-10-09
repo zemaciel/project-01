@@ -81,7 +81,6 @@ p {
   color: #333;
 }
 
-
 .bullet {
   color: #B70000;
   margin: 0 1rem;
@@ -101,7 +100,7 @@ p {
 }
 
 .red-button h3 {
-  color: white;
+  color: #fff;
   text-transform: uppercase;
   text-align: center;
 }
@@ -130,7 +129,7 @@ hr {
 
 #menu a {
   text-decoration: none;
-  color: white;
+  color: #fff;
   font-family: Sunflower, sans-serif;
 }
 
@@ -163,7 +162,7 @@ hr {
 #hikes-hero-image {
   height: 600px;
   width: 100%;
-  background: url('../images/cover-burren600.jpg') no-repeat center center;
+  background: url('../images/cover-cliffs.webp') no-repeat center center;
   background-size: cover;
   background-attachment: fixed;
   position: relative;
@@ -179,7 +178,7 @@ hr {
 }
 
 /* ===== INDEX PAGE - INTRO =====*/
-#intro {
+#introduction {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
@@ -204,7 +203,6 @@ hr {
   padding-top: 25px;
   float: left;
   text-align: center;
-
 }
 
 #feature-right {
@@ -212,7 +210,6 @@ hr {
   padding-top: 25px;
   float: right;
   text-align: center;
-
 }
 
 #feature-center {
@@ -283,10 +280,6 @@ hr {
 .team-card-left {
   float: left;
 }
-/*
-.team-card-center {
-  float: center;
-} */
 
 .team-card-right {
   float: right;
@@ -306,18 +299,13 @@ hr {
   padding: 15px 20px 50px 15px;
 }
 
-
-
 /* ===== HIKE PAGE - INTRO =====*/
-
-
 #hike-intro {
   margin-top: 20px;
   margin-bottom: 50px;
   max-width: 100%;
   display: flex;
   padding-left: 30px;
-
 }
 
 #hike-intro-left {
@@ -328,26 +316,25 @@ hr {
 #hike-intro-right {
   text-align: left;
 }
+
 #hike-intro h4 {
   font-size: 150%;
   font-weight: 500;
   margin: 25px auto 10px;
-
 }
+
 #hike-intro ul, li {
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #333;
-    text-decoration: normal;
-  }
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #333;
+  text-decoration: normal;
+}
 
 /* === HIKE PAGE - Tours Cards ===  */
-
 #tour-outer-container {
   margin: 15px auto;
   text-align: center;
   padding: 10px 20px;
-
 }
 
 .tour-row {
@@ -364,9 +351,8 @@ hr {
   padding-top: 25px;
   text-align: center;
   background: white;
-  box-shadow: 10px 10px 8px #888888;
+  box-shadow: 10px 10px 8px #C6CDCE;
 }
-
 
 .tour-description {
   padding: 10px 20px;
@@ -382,22 +368,144 @@ hr {
   text-align: center;
   margin: 0 auto;
 }
+
 .tour-photo img {
   width: 100%;
 }
 
+#cta-more-hikes {
+  margin-top: 30px;
+}
+
+/* ======= CONTACT PAGE ====== */
+.form-section {
+  clear: left;
+  background: url("../images/fullpage-mtbrandon3.webp");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #333;
+  min-height: 900px;
+  max-height: auto;
+  margin-top: 0;
+  position: relative;
+}
+
+.form-section p {
+  margin-top: 20px;
+  color: #C6CDCE;
+  font-size: 14px;
+}
+
+#fullcover-title-wrap {
+  position: absolute;
+  left: 10%;
+  top: 30px;
+}
+
+.fullcover-title {
+  background-color: rgba(183, 0, 0, .7);
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* ===== CONTACT FORM ===== */
+.message-form {
+  margin: 130px 10% 0 0;
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.8);
+  max-width: 500px;
+  height: auto;
+  position: absolute;
+  left: 10%;
+  padding: 20px;
+}
+
+.message-form h1, h4 {
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.message-form label, input, textarea {
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.message-form h2, h {
+  color: #fff;
+}
+
+.form-radio {
+  margin: 0 5px 0 20px;
+}
+
+.message-form textarea {
+  height: 120px;
+  padding: 5px;
+}
+
+.text-input {
+  background: transparent;
+  color: #fff;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  padding: 5px;
+}
+
+.text-input:hover {
+  border-color: #D70000;
+}
+
+.form-button {
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #D70000;
+  color: #fff;
+  display: block;
+  font-size: 1.5rem;
+}
+
+.form-button:hover {
+  background-color: #fff;
+  color: #D70000;
+}
+
+
+/* ==== Thankyou Page ==== */
 
 
 
 
+.thankyou-section {
+  clear: left;
+  background: url("../images/fullpage-mtbrandon.webp");
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  background-color: #333;
+  min-height: 900px;
+  max-height: auto;
+  margin-top: 0;
+  position: relative;
+}
 
-
-
-
-
-
-
-
+.thankyou-section p {
+  margin-top: 20px;
+  color: #C6CDCE;
+  font-size: 14px;
+}
+#back-to-home {
+  text-align: center;
+  margin-top: 10px;
+}
 
 
 
@@ -413,7 +521,7 @@ hr {
   margin-top: auto;
   clear: both;
   padding: 1em 1em 3em;
-  color: white;
+  color: #fff;
   text-align: center;
 }
 
@@ -425,9 +533,8 @@ hr {
   /* position: relative; */
 }
 
-
 #footer p {
-  color: white;
+  color: #fff;
   margin-top: 10px;
   text-align: center;
 }
@@ -452,7 +559,7 @@ hr {
   font-size: 180%;
   margin: 10px auto;
   padding: 10px;
-  color: white;
+  color: #fff;
 }
 
 /* ==========================
@@ -460,14 +567,29 @@ hr {
    =========================*/
 /* For large to medium screens sizes from 1200px wide and down  */
 @media screen and (max-width: 1200px) {
-  .hero-outer {
-    height: 400px;
-    width: 100%;
+  .logo-container-top {
+    margin: 10px auto auto 10px;
   }
 
-  #index-hero-image, #hikes-hero-image, #contact-hero-image, #thankyou-hero-image {
-    height: 400px;
-    margin-bottom: -10;
+  nav {
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  #menu {
+    font-size: 95%;
+    letter-spacing: 0;
+    margin: 0 auto;
+  }
+
+  #menu, #logo {
+    line-height: 120px;
+  }
+
+  .hero-outer {
+    height: 450px;
+    width: 100%;
+    background-position: top;
   }
 
   #cover-text {
@@ -528,112 +650,121 @@ hr {
   }
 
   .team-photo {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .team-photo img {
+    height: 100%;
+    width: auto;
   }
 
   .team-card p {
     padding: 15px 20%;
   }
 
-
-/* --- Hikes Page --  */
-
+  /* --- Hikes Page --  */
   .tour-row {
     grid-template-columns: 45% 45%;
   }
-
-
-
-
-
-
-
 }
 
-/* For Small screens - iPhone 4 */
-@media screen and (max-width: 320px){
+/* // Medium devices (tablets, less than 992px)  */
+@media screen and (max-width: 991.98px) {
+  header {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    top: 0;
+  }
 
-header {
-  height: 140px;
-  width: 100%;
-  text-align: center;
-  padding: 2%;
+  #menu {
+    font-size: 95%;
+    letter-spacing: 0;
+    margin: 0 auto;
+  }
+
+  #menu, #logo {
+    line-height: 120px;
+  }
 }
 
-.logo-container-top {
-  width: 50px;
-}
-nav {
-  text-align: center;
-  margin-top: 5%;
-}
+/* // Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+  header {
+    height: 140px;
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    top: 0;
+  }
 
+  .logo-container-top {
+    width: 50px;
+  }
 
-#menu {
-  font-size: 90%;
-  letter-spacing: 0;
-  text-transform: uppercase;
-  margin: 0 auto;
-}
+  nav {
+    text-align: center;
+    margin-top: 5%;
+  }
 
-#menu, #logo {
-  line-height: 120px;
-}
+  #menu li {
+    margin: 10px;
+  }
 
-#menu li {
-  float: center;
-  margin: 10px;
-}
-.hero-outer {
-  height: 300px;
-  margin-top: -200px;
-}
+  #menu {
+    font-size: 90%;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    margin: 0 auto;
+  }
 
-  #index-hero-image, #hikes-hero-image, #contact-hero-image, #thankyou-hero-image {
+  #menu, #logo {
+    line-height: 120px;
+  }
+
+  #menu li {
+    float: center;
+    margin: 10px;
+  }
+
+  .hero-outer {
+    height: 300px;
+    margin-top: 0;
+  }
+
+  #index-hero-image, #hikes-hero-image, {
     min-height: 300px;
     margin-top: 0;
     background-position: top;
   }
 
-#index-hero-image, #hikes-hero-image img {
-  height: 100%;
-}
+  #index-hero-image, #hikes-hero-image img {
+    height: 100%;
+  }
 
+  /* --- Hikes Page --  */
+  #hike-intro {
+    margin: 5px;
+    padding: 0;
+  }
 
+  #hike-intro-left {
+    margin: 20px;
+  }
 
+  #hike-intro-right {
+    display: none;
+  }
 
-/* --- Hikes Page --  */
-
-
-
-#hike-intro {
-  margin: 5px;
-  padding: 0;
-
-}
-
-#hike-intro-left {
-  margin:20px;
-}
-
-#hike-intro-right {
-display: none;
-}
-
-#our-hikes-title h2 {
-  font-size: 120%;
-}
-
-
-
-
-
+  #our-hikes-title h2 {
+    font-size: 120%;
+  }
 
   .tour-row {
     grid-template-columns: 100%;
   }
-
 
   .tour-cards {
     width: 100%;
@@ -643,7 +774,8 @@ display: none;
     box-shadow: 4px 4px 2px #888888;
   }
 
-
-
-
+  /* --- Contact Page ----  */
+  .form-section {
+    min-height: 1100px;
+  }
 }
