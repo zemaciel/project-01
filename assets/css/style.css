@@ -15,8 +15,6 @@ header {
   height: 80px;
   width: 100%;
   margin: 0;
-  /* position: fixed;
-  z-index: 1; */
 }
 
 .logo-container-top {
@@ -69,9 +67,9 @@ h3 {
 
 h4 {
   font-family: Sunflower, sans-serif;
-  font-weight: 300;
+  font-weight: 500;
   font-size: 1.2rem;
-  color: #B70000;
+  color: #333;
 }
 
 p {
@@ -236,15 +234,15 @@ hr {
 }
 
 #feature-photo-left {
-  background-image: url('../images/hike-carrauntoohil.jpg');
+  background-image: url('../images/hike-carrauntoohil.webp');
 }
 
 #feature-photo-middle {
-  background-image: url('../images/hike-donegal2.jpg');
+  background-image: url('../images/hike-donegal2.webp');
 }
 
 #feature-photo-right {
-  background-image: url('../images/hike-clifs-moher.jpg');
+  background-image: url('../images/hike-clifs-moher.webp');
 }
 
 /* ===== INDEX PAGE - MEET THE TEAM  ====== */
@@ -252,7 +250,7 @@ hr {
   margin: 25px auto 0;
   text-align: center;
   position: relative;
-  background-color: #C6CDCE;
+  background-color: #dedede;
   padding-top: 15px;
   padding-bottom: 15px;
   min-height: 680px;
@@ -274,7 +272,7 @@ hr {
 }
 
 .team-card h4 {
-  color: #B70000;
+  color: #333;
 }
 
 .team-card-left {
@@ -482,8 +480,6 @@ hr {
 /* ==== Thankyou Page ==== */
 
 
-
-
 .thankyou-section {
   clear: left;
   background: url("../images/fullpage-mtbrandon.webp");
@@ -502,14 +498,11 @@ hr {
   color: #C6CDCE;
   font-size: 14px;
 }
+
 #back-to-home {
   text-align: center;
   margin-top: 10px;
 }
-
-
-
-
 
 
 
@@ -593,7 +586,6 @@ hr {
   }
 
   #cover-text {
-    /* background-color: rgba(183, 0, 0, .7); */
     padding: 7px;
     left: 2%;
     top: 250px;
@@ -724,10 +716,6 @@ hr {
     line-height: 120px;
   }
 
-  #menu li {
-    /* float: left;
-    margin: 5px auto; */
-  }
 
   .hero-outer {
     height: 300px;
