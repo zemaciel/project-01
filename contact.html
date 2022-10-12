@@ -5,22 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Trails West, guided hikes in the West of Ireland">
-  <meta name="keywords" content="hikes, outdoors, nature, trails, walks, Kerry, Sligo, Glaway, Donegal, Mayo, Clare, West of Ireland">
+  <meta name="keywords"
+    content="hikes, outdoors, nature, trails, walks, Kerry, Sligo, Glaway, Donegal, Mayo, Clare, West of Ireland">
   <title>TrailsWest</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-
   <div id="container">
     <div id="main">
 
       <header>
-
         <div class="logo-container-top">
           <a href="index.html">
-          <img src="assets/images/logo/logo-landscape-negative.png" width="155.73px" height="auto" aria-label="Trails West Logo link to home page" />
-        </a>
+            <img src="assets/images/logo/logo-landscape-negative.png" width="155px" height="55px" alt="Trail West Logo" aria-label="Trails West Logo link to home page" />
+          </a>
         </div>
 
         <!-- Navigation -->
@@ -39,10 +38,7 @@
         </nav>
       </header>
 
-
-
-
-        <section class="form-section">
+      <section class="form-section">
 
         <div id="fullcover-title-wrap">
           <div class="fullcover-title">
@@ -50,94 +46,71 @@
           </div>
         </div>
 
-
-          <div class="message-form">
-
-
-          <form method="POST" action="thankyou.html" >
-
-
-
-            <h2>Message us! <i class="fas fa-envelope"></i></h2>
+        <div class="message-form">
+          <h2>Message us! <i class="fas fa-envelope"></i></h2>
+          
+          <form method="get" action="thankyou.html">
             <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" required class="text-input" >
-
+            <input id="fname" name="first_name" type="text" required class="text-input">
             <label for="email">Email Address</label>
             <input type="email" id="email" name="email_address" required class="text-input">
-
             <label for="message">Your Message</label>
             <textarea id="message" name="message" required class="text-input"></textarea>
-             <br>
+            <br>
             <h4>What kind of hikes do you prefer</h4>
             <label for="multi-day" class="form-radio">Multiple days hike</label>
             <input type="radio" id="multi-day" name="type-of-hike" value="multi-day" required>
-            <label for="single-day"class="form-radio">Trail</label>
+            <label for="single-day" class="form-radio">Trail</label>
             <input type="radio" id="single-day" name="type-of-hike" value="single-day" required>
-            <label for="both"class="form-radio">Both</label>
+            <label for="both" class="form-radio">Both</label>
             <input type="radio" id="both" name="type-of-hike" value="both" required>
+            <input class="form-button" type="submit" value="Take a hike!">
+          </form>
+          <p>
+            Note:
+            TrailsWest is not an actual company. The website is just a project for an educational course. Therefore, the
+            site did not send your message.
+            Landscape photos are the property of the author. Guides photos are from Unsplash.
+            Hikes description texts are not accurate. Parts of the texts were extracted from genuine websites and
+            modified for this project.
+          </p>
+        </div>
 
-            <input class="form-button" type="submit" value="Take a hike! 😜">
-        </form>
-
-        <p>
-          Note:
-        TrailsWest is not an actual company. The website is just a project for an educational course. Therefore, the site did not send your message.
-        Landscape photos are the property of the author. Guides photos are from Unsplash.
-        Hikes description texts are not accurate. Parts of the texts were extracted from genuine websites and modified for this project.
-
-        </p>
-
+      </section>
+    </div>
     </div>
 
+    <footer id="footer">
+      <div class="footer-wrap">
 
-    </section>
-
-
-      </div>
-
-
-      <footer id="footer">
-        <div class="footer-wrap">
-
-
-          <!-- <div class="footer-logo">
-
-          </div> -->
-
-          <div class="footer-address">
-
-            <a href="index.html">
-              <!-- <div id="footer-logo-image">
-              </div> -->
-              <img src="assets/images/logo/logo-landscape-white.png" aria-label="Trails West Logo and link to home page" height="50px" width="auto" />
-            </a>
-            <br>
-            <p>
-              +353 01 203 3434 10 <span class="bullet"> • </span> East Ave, Killarney, Co. Kerry.
-            </p>
-          </div>
-
-
-          <div class="socialmedia">
-            <ul class="socialmedia-list">
-              <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
-              </li>
-              <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-              </li>
-              <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-              </li>
-            </ul>
-          </div>
+        <div class="footer-address">
+          <a href="index.html">
+            <img src="assets/images/logo/logo-landscape-white.png" alt="Trails West Logo" aria-label="Trails West Logo and link to home page" height="50px" width="142px" />
+          </a>
+          <br>
+          <p>
+            +353 01 203 3434 10 <span class="bullet"> • </span> East Ave, Killarney, Co. Kerry.
+          </p>
         </div>
-      </footer>
 
-
-    </body>
-
-    </html>
-
-    <!-- font awesome script  -->
-    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+        <div class="socialmedia">
+          <ul class="socialmedia-list">
+            <li>
+              <a href="https://facebook.com" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="https://twitter.com" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+              <a href="https://instagram.com" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
+<script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
