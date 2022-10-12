@@ -6,7 +6,8 @@
   border: none;
 }
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -29,13 +30,10 @@ header {
 }
 
 #main {
-  /* overflow: auto; */
-  /* padding-bottom: 150px; */
-  /* position: relative; */
   height: auto;
 }
 
-/* ===== TYPOGRAPHY STYLING ===== */
+/*  TYPOGRAPHY STYLING  */
 a {
   text-decoration: none;
 }
@@ -84,7 +82,7 @@ p {
   margin: 0 1rem;
 }
 
-/* ===== BUTTON STYLING ===== */
+/*  BUTTON STYLING  */
 .red-button {
   background-color: rgba(183, 0, 0, 1);
   border: none;
@@ -109,13 +107,14 @@ hr {
   margin: 5px auto;
 }
 
-/* ===== NAVEGATION LINKS STYLING =====*/
+/*  NAVEGATION LINKS STYLING */
 #menu {
   font-size: 110%;
   letter-spacing: 4px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
   line-height: 75px;
 }
 
@@ -139,7 +138,7 @@ hr {
   border-bottom: 4px solid #B70000;
 }
 
-/* ==== HERO BANNER ====  */
+/*  HERO BANNER   */
 .hero-outer {
   height: 600px;
   width: 100%;
@@ -175,14 +174,14 @@ hr {
   border-radius: 20px;
 }
 
-/* ===== INDEX PAGE - INTRO =====*/
+/*  INDEX PAGE - INTRO  */
 #introduction {
   margin-top: 20px;
   margin-bottom: 20px;
   text-align: center;
 }
 
-/* ===== INDEX PAGE - FEATURE HIKES ===== */
+/*  INDEX PAGE - FEATURE HIKES  */
 #features-outer-container {
   margin: 25px;
   text-align: center;
@@ -244,7 +243,7 @@ hr {
   background-image: url('../images/hike-clifs-moher.webp');
 }
 
-/* ===== INDEX PAGE - MEET THE TEAM  ====== */
+/*  INDEX PAGE - MEET THE TEAM  */
 #team-outer-container {
   margin: 25px auto 0;
   text-align: center;
@@ -296,7 +295,7 @@ hr {
   padding: 15px 20px 50px 15px;
 }
 
-/* ===== HIKE PAGE - INTRO =====*/
+/*  HIKE PAGE - INTRO  */
 #hike-intro {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -311,7 +310,6 @@ hr {
 }
 
 #hike-intro-right {
-  /* text-align: left; */
   margin: 0 auto;
 }
 
@@ -321,7 +319,8 @@ hr {
   margin: 25px auto 10px;
 }
 
-#hike-intro ul, li {
+#hike-intro ul,
+li {
   font-family: Lato, sans-serif;
   font-weight: 300;
   color: #333;
@@ -360,7 +359,6 @@ hr {
 .tour-photo {
   width: 80%;
   height: auto;
-  /* content-fill: contain; */
   background-repeat: no-repeat;
   overflow: hidden;
   text-align: center;
@@ -368,15 +366,15 @@ hr {
 }
 
 .tour-photo img {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
 #cta-more-hikes {
   margin-top: 30px;
 }
 
-/* ======= CONTACT PAGE ====== */
+/*  CONTACT PAGE  */
 .form-section {
   clear: left;
   background: url("../images/fullpage-mtbrandon3.webp");
@@ -384,10 +382,14 @@ hr {
   background-position: center center;
   background-attachment: fixed;
   background-color: #333;
-  min-height: 900px;
-  /* max-height: auto; */
+  min-height: 100vh;
   margin-top: 0;
   position: relative;
+}
+
+.form-section img {
+  height: 100%;
+  width: auto;
 }
 
 .form-section p {
@@ -408,7 +410,7 @@ hr {
   border-radius: 20px;
 }
 
-/* ===== CONTACT FORM ===== */
+/*  CONTACT FORM  */
 .message-form {
   margin: 130px 10% 0 0;
   color: #fff;
@@ -420,19 +422,23 @@ hr {
   padding: 20px;
 }
 
-.message-form h1, h4 {
+.message-form h1,
+h4 {
   color: #fff;
   margin-bottom: 20px;
 }
 
-.message-form label, input, textarea {
+.message-form label,
+input,
+textarea {
   font-family: Lato, sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: #fff;
 }
 
-.message-form h2, h {
+.message-form h2,
+h {
   color: #fff;
 }
 
@@ -477,10 +483,7 @@ hr {
   color: #D70000;
 }
 
-
-/* ==== Thankyou Page ==== */
-
-
+/*  Thankyou Page  */
 .thankyou-section {
   clear: left;
   background: url("../images/fullpage-mtbrandon.webp");
@@ -493,6 +496,12 @@ hr {
   position: relative;
 }
 
+.thankyou-section img {
+  height: 100%;
+  width: auto;
+}
+
+
 .thankyou-section p {
   margin-top: 20px;
   color: #C6CDCE;
@@ -504,9 +513,7 @@ hr {
   margin-top: 10px;
 }
 
-
-
-/* ====== FOOTER ===== */
+/*  FOOTER  */
 #footer {
   background-color: #333;
   height: 170px;
@@ -554,16 +561,12 @@ hr {
   color: #fff;
 }
 
-/* ==========================
-   ===== MEDIA QUERIES =====
-   =========================*/
+/* Media Queries */
 /* For large to medium screens sizes from 1200px wide and down  */
 @media screen and (max-width: 1200px) {
   .logo-container-top {
     margin: 10px auto 10px 10px;
   }
-
-
 
   nav {
     text-align: center;
@@ -576,7 +579,8 @@ hr {
     margin: 0 auto;
   }
 
-  #menu, #logo {
+  #menu,
+  #logo {
     line-height: 80px;
   }
 
@@ -607,7 +611,9 @@ hr {
     display: block;
   }
 
-  #feature-left, #feature-right, #feature-center {
+  #feature-left,
+  #feature-right,
+  #feature-center {
     width: 100%;
     padding-top: 15px;
     float: none;
@@ -636,7 +642,9 @@ hr {
     font-weight: 500;
   }
 
-  .team-card-left, .team-card-center, .team-card-right {
+  .team-card-left,
+  .team-card-center,
+  .team-card-right {
     text-align: center;
     background-color: #e1e1e1;
     width: 100%;
@@ -679,7 +687,8 @@ hr {
     margin: 0 auto;
   }
 
-  #menu, #logo {
+  #menu,
+  #logo {
     line-height: 120px;
   }
 }
@@ -714,23 +723,25 @@ hr {
     margin: 0 auto;
   }
 
-  #menu, #logo {
+  #menu,
+  #logo {
     line-height: 120px;
   }
-
 
   .hero-outer {
     height: 300px;
     margin-top: 0;
   }
 
-  #index-hero-image, #hikes-hero-image {
+  #index-hero-image,
+  #hikes-hero-image {
     min-height: 300px;
     margin-top: 0;
     background-position: top;
   }
 
-  #index-hero-image, #hikes-hero-image img {
+  #index-hero-image,
+  #hikes-hero-image img {
     height: 100%;
   }
 
