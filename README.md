@@ -1,108 +1,233 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![TrailsWestLogo](assets/images/logo/logo-landscape-color.png)
 
-Welcome zemaciel,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+# Trails West 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
 
-## Gitpod Reminders
+This is a project of a website to promote the fictional company Trails West. 
+Trails West is a company based in County Kerry; offering guided hikes in the West of Ireland. The service may also include arranging the accommodation and transportation for their customers, renting appropriate outdoor gear and providing snacks or meals for the trails. 
+The hike/tour guides are selected contractors based in the counties of the West of Ireland.   
+Three individuals manage the company; they share the same passion for the outdoors and love their mutual goal of helping more people to explore and love the nature of that part of the world. 
+![screenshot](assets/images/readme/screenshot.png)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The live site can be seen [here](https://zemaciel.github.io/project-01/).
 
-`python3 -m http.server`
+# Design
 
-A blue button should appear to click: _Make Public_,
+## Logo
 
-Another blue button should appear to click: _Open Browser_.
+A logo was designed to give the website a professional look, including variations in the orientation (portrait or landscape) display against dark and light backgrounds.  
+The inspiration is the mountains in the West of Ireland, represented in dark grey in the symbol, and the red in the sky, suggesting the sun setting in the West.  
+![logo](assets/images/readme/logo.png)
+The logo was a good starting point for the design of the site. The colour and the typography were based on the logo. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## Colours
 
-A blue button should appear to click: _Make Public_,
+Dark grey, red, and white are the primary colours for the website. A light shade of grey is used in the index page as a background to help differentiate one section from the other. 
+Dark Grey: #E1E1E1
+Red: #B70000
+Light grey: #333
+![colours](assets/images/readme/colours.png)
 
-Another blue button should appear to click: _Open Browser_.
+## Typography
+Throughout the website, the fonts used are from two  [GoogleFonts](https://fonts.google.com/) families: 
+Sunflower – a sans-serif font, the same one used on the TrailsWest logo, is predominately used in the headings on the website.
+Lato – a sans-serif font with good legibility used on the paragraph texts. 
+![typography](assets/images/readme/typography.webp)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+## Mockup
+A mockup of the home page was designed in the earlier stage of the project in Adobe XD. Using the defined colours and fonts, it was helpful to have a better understanding of what the final page should look like before typing any line of code.  
+![mockup](assets/images/readme/adobe-mockup.png)
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+# Existing Features
 
-------
+## Navigation Bar
 
-## Release History
+Navigation Bar is featured on all four pages; the full responsive navigation bar includes links to the Logo, Home page, Hikes Pages and Contact page and is identical on each page to allow for easy navigation.
+The current page is indicated on the navigation bar with an underline. 
+This section will allow the user to easily navigate from page to page across all devices without using the ‘back’ button.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+![navbar](assets/images/readme/header.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+## Hero Image
+Top banners covering the entire page width and displaying a landscape photo of the hikes are on the Home and the Hikes pages.  They also contain texts referent to the page; on the home page, the line "Explore the Best of the West" is an invitation for the user to start exploring the site, and on the hike page, the text is "Our Hikes".
+For the pages Contact and Thank You, which have less content, the hero images became the background, filling the screen with a scenic photo. 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+![hero](assets/images/readme/hero.webp)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Intro Section and Featured Hikes
+On the home page, just below the hero image and still partially above the fold, sits the introduction section, with a short description of what the company offers, followed by three featured hikes. 
+Underneath, a button link to the hike pages. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![intro](assets/images/readme/intro.webp)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Meet the Team
+The heart and soul of Trails West are the people who manage it and are dedicated to offering the best experience for their company. So on the home page, we present those people, show their faces and tell a few of their stories and passion for exploring. 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![team](assets/images/readme/team.webp)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## The Footer 
+The footer section includes the following:
+ TrailsWest logo, which is linked to the home page; 
+links to social media sites. The links will open to a new tab to allow easy navigation for the user. The footer is valuable to the user as it encourages them to keep connected via social media;
+Address and telephone details. 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+![footer](assets/images/readme/footer.png)
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Hikes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+This would be the product section for the Trails West site. 
+Below the hero image is a short description of some of the servers offered by the company. 
+The most popular hikes are then presented in vertical boxes or cards. They contain a photo, title  and descriptive text. 
+At the end of the page, a button with the call to action "book now" directs the user to the contact page. 
 
-------
+![hikes](assets/images/readme/hikepage.webp)
 
-## FAQ about the uptime script
+## Contact Page
+The user is invited to send an enquiry on the contact page, filling up the fields: Name, email, message and choosing if they prefer a single-day hike, multi-day hike or both. 
+The submit button is a bit irreverent, with an [emoji](https://en.wikipedia.org/wiki/Emoji) and a  pun with the expression "Take a Hike". Just a little touch of humour. 
 
-**Why have you added this script?**
+![contact](assets/images/readme/contact.webp)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+## Thank You Page
 
-**How will this affect me?**
+After the user clicks the submit button, they are redirected to the "Thank You" page. This page works as feedback indicating that the action of sending a message was completed.
+Links to Social Media are displayed more prominently on the page, an invitation for them to continue interacting with the TrailsWest brand.  
+![thankyou](assets/images/readme/thankyou.webp)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+# Future Features
+Would be an exciting feature to have the hikes card organized and/or filtered according to their counties, type of hike (single-day, multi-day), level of difficulty and available dates. 
+Also, the cards could be linked to a page containing more details about the hikes and including maps. 
+There should also be more details about the services provided and the company itself. 
+ 
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
+# Testing
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+I have tested the site on Chrome and Firefox on desktop computers with different screen sizes ( 27" and 13") on Chrome and Firefox on Android phones and also using google dev tools. 
+While developing this site, I encountered a series of hurdles, which are understandable as this is the first time I've coded a website. 
+Positioning and media queries were challenges that consumed more time than I had imagined. And finding small mistakes in the code was a big task as well. 
+One of the problems that took most of my time was fixing the footer position to keep it at the bottom of the page at all times. For that, the best alternative I found was using "[display flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)". 
+Display flex was also the solution to centre the items inside the content of the footer. 
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+To display the hikes as cards on the hike.html page, ["display grid"](https://www.w3schools.com/css/css_grid.asp) was the chosen solution.    
 
-**Anything more?**
+Getting the media queries to function appropriately required a lot of attempts, but they are functional now.  
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The contact form was based on the same contact in the Code Institute Project "Love Running". And my mentor on the project spotted that it wasn't working correctly, and I had to change the action from "Post" to "Get", so it would display the "Thank You" page. 
 
----
+Testing the site using the Google Dev Tool "Lighthouse" was very helpful in improving the accessibility. The section "Meet the Team" in the home page had a darker background and red text, which Lighthouse indicated as low contrast. I also recommend using images in [webp] (https://developers.google.com/speed/webp) format, which has better performance and I was not very familiar with it. 
 
-Happy coding!
+I have also learned that copy and pasting can be a curse if you don't pay attention. The same mistake in one line of code in the Footer was present on all pages at some stage. And even when something seems to work on the screen does not mean that it is correct. Place the "[fontawesome] (https://fontawesome.com/) script" under the </body></html> may show the result you wanted, but will not pass a HTML validator test. 
+
+Speaking of which, the site has passed the main validator tests. 
+
+## Validator Testing
+
+### HTML
+No errors were returned when passing through the [W3C Validator](https://validator.w3.org/)
+![validator](assets/images/readme/v-html.webp)
+
+
+### CSS
+No errors were returned when passing through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
+
+
+### Lighthouse testing
+
+
+
+## Unfixed Bugs
+Deciding between having the project perfect or having it done, the latter was the best choice. 
+A few things remain unresolved, but none that affect the site's performance, accessibility or functionalities. 
+On the index and hikes pages, there is a small gap between the hero images and the header on smaller screens. 
+The content of the "Meet the Team Section" was going over the footer on smaller screens. The problem was fixed using "display flex"; however, now there is a gap on the left-hand-size of the container displaying the 3rd team member.  
+When reduced to smaller screens, I wanted the nav bar in the header to be aligned to the center under the logo, and I was not able to find a solution by the time of the submission of this project.
+Some images, like the logos on the footer and bottom of the page and the images of the team, have inline styles for width and height in the HTML code. Those attributes should be on the CSS style, but I had problems amending that and had to leave as it is for now. 
+ 
+
+ 
+
+
+
+
+
+
+## Main Languages and Applications used 
+HTML5 
+CSS3 
+Google Fonts
+Font Awesome 
+GitPod 
+GitHub
+Adobe Illustrator - design of the logo.
+Adobe Photoshop - editing images and saving them as Webp.
+Adobe XD - initial mockup
+Atom - for editing codes offline. 
+
+## Deployment 
+The site was deployed to GitHub pages. 
+In the GitHub repository, go to the Settings. 
+Of the drop-down menu, select the Master Branch
+Click ”Save” 
+The page reloads with the link to the project: https://zemaciel.github.io/project-01/
+
+
+##Credits
+
+To complete this project, I had the guidance of Martina Terlevic, my Code Institute mentor, and the help of members of the Code Institute Slack community. They took the time to check my enquires, and shared useful content. I thank you all.   
+
+The header, nav menu and contact page were based on the Love Running Project. 
+ 
+Websites and videos were very helpful: 
+
+###Flexbox: 
+ https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+Learn Flexbox in 15 Minutes - https://www.youtube.com/watch?v=fYq5PXgSsbE
+Learn flexbox the easy way - https://www.youtube.com/watch?v=u044iM9xsWU&t=292s
+
+###Grid
+Learn CSS Grid in 20 Minutes - https://www.youtube.com/watch?v=9zBsdzdE4sM
+
+### Other great resources: 
+https://developer.mozilla.org/en-US/
+https://www.w3schools.com/
+https://stackoverflow.com/
+
+
+
+### Media
+As I enjoy hiking and photography, I have many images of hikes and have used some of them on this site. 
+The photos of the team members are from www.unslpash.com. 
+
+Information about the hikes was extracted from different sites and modified. Some of the sources are: 
+http://allaroundireland.ie/
+https://www.kerryclimbing.ie/
+ https://bespoketreksandhikes.com/
+https://irelandwalkhikebike.com/
+https://www.wildernessireland.com/
+https://www.hilltoptreks.com/
+www.alltrails.com
+https://outsider.ie/
+https://sligowalks.ie/
+
+
+
+
+
+
+
+
+
+
+  
+
