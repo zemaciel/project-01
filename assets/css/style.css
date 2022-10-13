@@ -23,6 +23,11 @@ header {
   margin: 10px 30px;
 }
 
+.logo-container-top img {
+  width: 155px;
+  height: 55px;
+}
+
 #container {
   min-height: 100%;
   display: flex;
@@ -289,6 +294,11 @@ hr {
   border-radius: 50% 50%;
   overflow: hidden;
   background-size: contain;
+
+}
+.team-photo img {
+  max-width: 100%;
+  height: auto;
 }
 
 .team-card p {
@@ -544,6 +554,7 @@ h {
   width: 100%;
 }
 
+
 .socialmedia {
   width: 100%;
   margin: 0 auto;
@@ -657,7 +668,7 @@ h {
   }
 
   .team-photo img {
-    height: 100%;
+    max-height: 100%;
     width: auto;
   }
 
