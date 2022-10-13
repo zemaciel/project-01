@@ -116,7 +116,7 @@ There should also be more details about the services provided and the company it
 I have tested the site on Chrome and Firefox on desktop computers with different screen sizes ( 27" and 13") on Chrome and Firefox on Android phones and also using google dev tools. 
 While developing this site, I encountered a series of hurdles, which are understandable as this is the first time I've coded a website. 
 Positioning and media queries were challenges that consumed more time than I had imagined. And finding small mistakes in the code was a big task as well. 
-One of the problems that took most of my time was fixing the footer position to keep it at the bottom of the page at all times. For that, the best alternative I found was using "[display flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)". 
+One of the problems that took most of my time was fixing the footer position to keep it at the bottom of the page at all times. For that, the best alternative I found was "[flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)". 
 Display flex was also the solution to centre the items inside the content of the footer. 
 
 To display the hikes as cards on the hike.html page, ["display grid"](https://www.w3schools.com/css/css_grid.asp) was the chosen solution.    
@@ -125,9 +125,9 @@ Getting the media queries to function appropriately required a lot of attempts, 
 
 The contact form was based on the same contact in the Code Institute Project "Love Running". And my mentor on the project spotted that it wasn't working correctly, and I had to change the action from "Post" to "Get", so it would display the "Thank You" page. 
 
-Testing the site using the Google Dev Tool "Lighthouse" was very helpful in improving the accessibility. The section "Meet the Team" in the home page had a darker background and red text, which Lighthouse indicated as low contrast. I also recommend using images in [webp] (https://developers.google.com/speed/webp) format, which has better performance and I was not very familiar with it. 
+Testing the site using the Google Dev Tool "Lighthouse" was very helpful in improving the accessibility. The section "Meet the Team" in the home page had a darker background and red text, which Lighthouse indicated as low contrast. I also recommend using images in [webp](https://developers.google.com/speed/webp) format, which has better performance and I was not very familiar with it. 
 
-I have also learned that copy and pasting can be a curse if you don't pay attention. The same mistake in one line of code in the Footer was present on all pages at some stage. And even when something seems to work on the screen does not mean that it is correct. Place the "[fontawesome] (https://fontawesome.com/) script" under the </body></html> may show the result you wanted, but will not pass a HTML validator test. 
+I have also learned that copy and pasting can be a curse if you don't pay attention. The same mistake in one line of code in the Footer was present on all pages at some stage. And even when something seems to work on the screen does not mean that it is correct. Place the "[fontawesome](https://fontawesome.com/) script" under the `</body></html>` may show the result you wanted, but will not pass a HTML validator test. 
 
 Speaking of which, the site has passed the main validator tests. 
 
@@ -135,19 +135,21 @@ Speaking of which, the site has passed the main validator tests.
 
 ### HTML
 No errors were returned when passing through the [W3C Validator](https://validator.w3.org/)
-![validator](assets/images/readme/v-html.webp)
+![html](assets/images/readme/v-html.webp)
 
 
 ### CSS
 No errors were returned when passing through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/)
-
+![css](assets/images/readme/v-css.webp)
 
 ### Lighthouse testing
+![lighthouse](assets/images/readme/lighthouse.png)
 
 
 
 ## Unfixed Bugs
-Deciding between having the project perfect or having it done, the latter was the best choice. 
+ _Deciding between having the project perfect or having it done, the latter was the best choice._
+
 A few things remain unresolved, but none that affect the site's performance, accessibility or functionalities. 
 On the index and hikes pages, there is a small gap between the hero images and the header on smaller screens. 
 The content of the "Meet the Team Section" was going over the footer on smaller screens. The problem was fixed using "display flex"; however, now there is a gap on the left-hand-size of the container displaying the 3rd team member.  
@@ -155,79 +157,61 @@ When reduced to smaller screens, I wanted the nav bar in the header to be aligne
 Some images, like the logos on the footer and bottom of the page and the images of the team, have inline styles for width and height in the HTML code. Those attributes should be on the CSS style, but I had problems amending that and had to leave as it is for now. 
  
 
- 
 
+# Main Languages and Applications used 
+- HTML5 
+- CSS3 
+- Google Fonts
+- Font Awesome 
+- GitPod 
+- GitHub
+- Adobe Illustrator - design of the logo.
+- Adobe Photoshop - editing images and saving them as Webp.
+- Adobe XD - initial mockup
+- Atom - for editing codes offline. 
 
-
-
-
-
-## Main Languages and Applications used 
-HTML5 
-CSS3 
-Google Fonts
-Font Awesome 
-GitPod 
-GitHub
-Adobe Illustrator - design of the logo.
-Adobe Photoshop - editing images and saving them as Webp.
-Adobe XD - initial mockup
-Atom - for editing codes offline. 
-
-## Deployment 
+# Deployment 
 The site was deployed to GitHub pages. 
-In the GitHub repository, go to the Settings. 
-Of the drop-down menu, select the Master Branch
-Click ”Save” 
-The page reloads with the link to the project: https://zemaciel.github.io/project-01/
+1. In the GitHub repository, go to the Settings. 
+2. Of the drop-down menu, select the Master Branch
+3. Click ”Save” 
+4. The page reloads with the link to the project: https://zemaciel.github.io/project-01/.
 
-
-##Credits
+# Credits
 
 To complete this project, I had the guidance of Martina Terlevic, my Code Institute mentor, and the help of members of the Code Institute Slack community. They took the time to check my enquires, and shared useful content. I thank you all.   
 
 The header, nav menu and contact page were based on the Love Running Project. 
  
-Websites and videos were very helpful: 
+## Resources: 
 
-###Flexbox: 
+### Flexbox: 
  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 Learn Flexbox in 15 Minutes - https://www.youtube.com/watch?v=fYq5PXgSsbE
 Learn flexbox the easy way - https://www.youtube.com/watch?v=u044iM9xsWU&t=292s
 
-###Grid
+### Grid
 Learn CSS Grid in 20 Minutes - https://www.youtube.com/watch?v=9zBsdzdE4sM
 
 ### Other great resources: 
-https://developer.mozilla.org/en-US/
-https://www.w3schools.com/
-https://stackoverflow.com/
+- https://developer.mozilla.org/en-US/
+- https://www.w3schools.com/
+- https://stackoverflow.com/
 
 
 
-### Media
+## Media
 As I enjoy hiking and photography, I have many images of hikes and have used some of them on this site. 
-The photos of the team members are from www.unslpash.com. 
+The photos of the team members are from [Unsplash](https://www.unslpash.com). 
 
 Information about the hikes was extracted from different sites and modified. Some of the sources are: 
-http://allaroundireland.ie/
-https://www.kerryclimbing.ie/
- https://bespoketreksandhikes.com/
-https://irelandwalkhikebike.com/
-https://www.wildernessireland.com/
-https://www.hilltoptreks.com/
-www.alltrails.com
-https://outsider.ie/
-https://sligowalks.ie/
-
-
-
-
-
-
-
-
-
-
-  
+- http://allaroundireland.ie/
+- https://www.kerryclimbing.ie/
+- https://bespoketreksandhikes.com/
+- https://irelandwalkhikebike.com/
+- https://www.wildernessireland.com/
+- https://www.hilltoptreks.com/
+- https://www.alltrails.com
+- https://outsider.ie/
+- https://sligowalks.ie/
 
