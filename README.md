@@ -8,9 +8,45 @@ This is a project of a website to promote the fictional company Trails West.
 Trails West is a company based in County Kerry; offering guided hikes in the West of Ireland. The service may also include arranging the accommodation and transportation for their customers, renting appropriate outdoor gear and providing snacks or meals for the trails. 
 The hike/tour guides are selected contractors based in the counties of the West of Ireland.   
 Three individuals manage the company; they share the same passion for the outdoors and love their mutual goal of helping more people to explore and love the nature of that part of the world. 
-![screenshot](assets/images/readme/screenshot.png)
 
-The live site can be seen [here](https://zemaciel.github.io/project-01/).
+**The live site can be seen [here](https://zemaciel.github.io/project-01/).**
+![screenshot](assets/images/readme/screenshot.png)  
+  
+# Table of Content
+
+<!-- TOC start -->
+- [Trails West ](#trails-west)
+- [Design](#design)
+  * [Logo](#logo)
+  * [Colours](#colours)
+  * [Typography](#typography)
+  * [Mockup](#mockup)
+- [Existing Features](#existing-features)
+  * [Navigation Bar](#navigation-bar)
+  * [Hero Image](#hero-image)
+  * [Intro Section and Featured Hikes](#intro-section-and-featured-hikes)
+  * [Meet the Team](#meet-the-team)
+  * [The Footer ](#the-footer)
+  * [Hikes](#hikes)
+  * [Contact Page](#contact-page)
+  * [Thank You Page](#thank-you-page)
+- [Future Features](#future-features)
+- [Testing](#testing)
+  * [Validator Testing](#validator-testing)
+    + [HTML](#html)
+    + [CSS](#css)
+    + [Lighthouse testing](#lighthouse-testing)
+  * [Unfixed Bugs](#unfixed-bugs)
+- [Main Languages and Applications used ](#main-languages-and-applications-used)
+- [Deployment ](#deployment)
+- [Credits](#credits)
+  * [Resources: ](#resources)
+  * [Media](#media)
+<!-- TOC end -->
+
+
+
+  
 
 # Design
 
@@ -18,8 +54,8 @@ The live site can be seen [here](https://zemaciel.github.io/project-01/).
 
 A logo was designed to give the website a professional look, including variations in the orientation (portrait or landscape) display against dark and light backgrounds.  
 The inspiration is the mountains in the West of Ireland, represented in dark grey in the symbol, and the red in the sky, suggesting the sun setting in the West.  
-![logo](assets/images/readme/logo.png)
 The logo was a good starting point for the design of the site. The colour and the typography were based on the logo. 
+![logo](assets/images/readme/logo.png)
 
 ## Colours
 
@@ -185,15 +221,18 @@ The header, nav menu and contact page were based on the Love Running Project.
  
 ## Resources: 
 
-### Flexbox: 
+**Flexbox:**  
+
  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 Learn Flexbox in 15 Minutes - https://www.youtube.com/watch?v=fYq5PXgSsbE
 Learn flexbox the easy way - https://www.youtube.com/watch?v=u044iM9xsWU&t=292s
 
-### Grid
+**Grid**  
+
 Learn CSS Grid in 20 Minutes - https://www.youtube.com/watch?v=9zBsdzdE4sM
 
-### Other great resources: 
+**Other great resources:**   
+
 - https://developer.mozilla.org/en-US/
 - https://www.w3schools.com/
 - https://stackoverflow.com/
